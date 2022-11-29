@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { useState } from 'react';
 import './App.css';
 import './components/rooms/rooms.css';
@@ -45,7 +45,7 @@ function App() {
     <div className="App">
       <div id='main'>
         <h1>Smart house</h1>
-        <BrowserRouter>
+        <HashRouter>
           <Routes>
             <Route path='/' element={<Rooms room={rooms} />} />
             <Route path='/addRoom' element={<AddRoom addRooms={addRooms} />} />
@@ -54,7 +54,7 @@ function App() {
                 type={val.type} addProduct={addProduct} products={val.products} index={index} changeCondition={changeCondition} />} />
             })}
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
       </div>
     </div>
   );
