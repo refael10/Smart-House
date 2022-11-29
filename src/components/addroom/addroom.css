@@ -1,0 +1,60 @@
+#div-add{
+    border: 1px black solid;
+    height: 400px;
+    width: 500px;
+    background-color: rgb(174, 205, 205);
+    margin: auto;
+    margin-top: 7%;
+    text-align: center;
+}
+#smart-add{
+    margin-top: 5%;
+    font-size: 40px;
+}
+#select{
+    text-align: center;
+    background-color: white;
+    height: 35px;
+    width: 180px;
+    font-weight: bold;
+    font-size: 16px;
+}
+#inpt-1{
+    text-align: center;
+    height: 30px;
+    width: 168px;
+    font-size: 16px;
+    font-weight: bold;
+}
+::placeholder{
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+#room-color{
+    text-align: center;
+}
+.cr{
+    border: 1px black solid;
+    height: 50px;
+    width: 168px;
+    margin: auto;
+    background-color: white;
+    /* margin-top: 5px; */
+    /* padding-bottom: 10px; */
+    font-weight: bold;
+}
+#inpt-2{
+    /* font-size: 16px; */
+    text-align: center;
+    /* height: 30px; */
+    /* width: 400; */
+}
+#btn-add{
+    margin: auto;
+    background-color: blue;
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    font-size: 20px;
+}

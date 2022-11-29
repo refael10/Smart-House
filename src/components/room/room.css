@@ -1,0 +1,16 @@
+.div-room{
+    text-align: right;
+    margin-right: 3%;
+    /* color: yellow; */
+}
+
+.div-room1{
+    display: inline-block
+    /* justify-content: right; */
+    /* margin-left: 10px; */
+}
+#product{
+    /* display: flex; */
+    justify-content: space-between;
+    margin: auto;
+}
